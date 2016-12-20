@@ -65,7 +65,7 @@ src:local('Open Sans'), local('OpenSans'),url(//fonts.gstatic.com/s/opensans/v13
 unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 html,body,div,span,applet,object,amp-iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,amp-img,ins,kbd,q,s,samp,small, strike,strong, sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,ol,ul,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
-margin:0;padding:0;border:0;font-family:'Open Sans',sans-serif;letter-spacing:0px;font-size:14px;-webkit-font-smoothing:antialiased;color:#444444;background:none;}b,strong{font-weight:bold;}
+margin:0;padding:0;border:0;font-family:'Open Sans',sans-serif;letter-spacing:0px;font-size:14px;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;color:#444444;background:none;}b,strong{font-weight:bold;}
 blockquote, q{quotes:none;}
 blockquote:before,blockquote:after, q:before,q:after{content:none;}
 table{border-collapse:collapse;border-spacing:0;}
@@ -75,18 +75,102 @@ a.skip-main:focus,a.skip-main:active{color:#444444; background-color:#FFF4CC;lef
 header,section,.widget,h1,h2,h3,h4,h5,h6,ol,ul,li,nav,aside,body,abbr,code,pre,blockquote,footer,article{word-wrap:break-word;}
 abbr{border:0px;text-decoration:none;}
 html{width:100%;background:#ffffff;height:100%;}
-body,.outer{font-family:'Open Sans',sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing: grayscale;color:#444;font-size:14px;width:100%;margin:0px auto;padding:0px;}
+body{font-family:'Open Sans',sans-serif;font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing: grayscale;color:#444;font-size:14px;width:100%;margin:0px auto;padding:0px;}
 a{text-decoration:none;color:#1788C1;}
 a:hover{text-decoration:none;color:#4587F4;}
 /*************************** START: CUSTOM STYLESHEET NOW ***************************/
-.wrapper{width:100%;margin:0px;padding:0px;font-family:'Open Sans',sans-serif;font-size:14px;color:#444;background:#E0E4CC;}
+.wrapper{width:100%;margin:0px;padding:0px;font-family:serif;font-size:14px;color:#444;background:#E0E4CC;}
 .inner-wrapper{max-width:84%;height:auto;margin:0px auto;padding:0px 10px;background:transparent;}
+.toggle,[id^=drop] {display:none;}label.toggle{border-top:1px solid transparent;padding-left:12px;font-weight:bold;} li.home{background:none;}nav{position:relative;display:block;margin:0;padding:0;}#logo {display:block;padding:0 0px 0px 35px;float:left;font-size:20px;line-height:60px;} #logo a strong{color:#5573B3;padding-top:0px;font-size:16px;font-weight:bold;} #logo a strong:hover{color:#83AF9B;}nav:after {content:none;display:table;clear:both;}nav ul {float:left;padding:0;margin:0;list-style:none;position:relative;margin-top:4px;}nav ul li {margin:0px;display:inline-block;float:left;}
+nav a {display:block;padding:14px 15px;font-size:17px;text-decoration:none;font-weight:300;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing: grayscale;font-weight:bold;text-transform:uppercase;} nav a:hover{text-decoration:none;color:#4587F4;}
+nav ul ul {display:none;position:absolute;top:60px;}nav ul li:hover &gt;ul {display:inherit;}nav ul ul li {width:100%;float:none;display:list-item;position:relative;z-index:999999;}li &gt;a:after{content:none;}li &gt;a:only-child:after{content:none;}nav ul ul li a{color:#88AEDB;text-decoration:none;}nav ul ul li span.sub-ket{color:#D68189;}
+span.ket,span.sub-ket{position: relative;top: -16px;left: 15px;font-family:Arial,sans-serif;font-size:12px;}
+span.ket,span.sub-ket{color: #7d7d7d;}
 </style>
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
 <body>
 	<div class='wrapper'>
 		<div class='inner-wrapper'>
+			  <div class='inner'>
+				  <nav itemscope='itemscope' itemtype='https://schema.org/SiteNavigationElement'>
+					  <div class='kiri-menu'>
+						  <a href='http://www.amppelg.com/' title='Welcome to AMPPelg Template AMP Blogspot'>
+							  <amp-img alt='Logo Official www.AMPPelg.com | 101216' height='35' layout='fixed' src='http://1.bp.blogspot.com/-wCKsZxw1bd0/WEv0-6pUuBI/AAAAAAAAB1g/viKv5JOsDFMknQXkap1PCjGS0PLqsOaVwCK4B/s1600/amppelg-logo.gif' title='Logo Official www.amppelg.com' width='85'/>
+						  </a>
+					  </div>
+					  <div class='kanan-menu'>
+						  <label class='toggle lblmenu' for='drop'> MENU &#9660;</label>
+						  <input id='drop' type='checkbox'/>
+						  <ul class='menu'>
+							  <li class='home'>
+								  <label class='toggle' for='drop-1'>Home +</label>
+								  <a href='#'>Home</a><span class='ket'>AMPPelg</span>
+								  <input id='drop-1' type='checkbox'/>
+								  <ul>
+									  <li><a href='/'>Homepage</a><span class='sub-ket'>Home</span></li>
+									  <li><a href='/'>Order/Pembelian</a><span class='sub-ket'>order@amppelg.com</span></li>
+									  <li><a href='/'>Customer Service</a><span class='sub-ket'>contact@amppelg.com</span></li>
+								  </ul>
+							  </li>
+							  <li>
+								  <label class='toggle' for='drop-2'>Tema Template AMP +</label>
+								  <a href='#'>Tema Template AMP</a><span class='ket'>Browse Tema Template</span>
+								  <input id='drop-2' type='checkbox'/>
+								  <ul>
+									  <li><a href='http://www.amppelg.com/search/label/tutorial-amp' title='Kategori Tema Templates AMP'>Tutorial AMP</a><span class='sub-ket'>Tutorial AMP</span></li>
+								  </ul>
+							  </li>
+							  <li>
+								  <label class='toggle' for='drop-3'>Order +</label>
+								  <a href='#'>Order/Beli</a><span class='ket'>Panduan User</span>
+								  <input id='drop-3' type='checkbox'/>
+								  <ul>
+									  <li><a href='#'>Cara Melakukan Pembelian</a><span class='sub-ket'>Petunjuk Pembelian Template AMP</span></li>
+									  <li><a href='#'>Revisi Template AMP</a><span class='sub-ket'>Ingin Merevisi Template AMP?</span></li>
+									  <li><a href='#'>Cara Order Template AMP</a><span class='sub-ket'>Punya Konsep Desain Sendiri?</span></li>
+									  <li><a href='#'>Contact</a><span class='sub-ket'>Khusus Pelanggan</span></li>
+								  </ul>
+							  </li>
+							  <li><a href='#'>Blog</a><span class='ket'>Tips-Tutorial</span></li>
+							  <li class='mnumobile'>
+								  <label class='toggle' for='drop-4'>Term &amp; Condition +</label>
+								  <a href='#'>Term &amp; Condition</a><span class='ket'>Client Att.</span>
+								  <input id='drop-4' type='checkbox'/>
+								  <ul>
+									  <li><a href='//www.amppelg.com/p/privacy-policy.html' title='Privacy Policy | AMPPelg'>Privacy Policy</a><span class='sub-ket'>User Policy</span></li>
+									  <li><a href='#'>Faq</a><span class='sub-ket'>QA</span></li>
+									  <li><a href='#'>About</a><span class='sub-ket'>What &amp; Who</span></li>
+									  <li><a href='#'>Contact</a><span class='sub-ket'>Order</span></li>
+									  <li><a href='#'>Subscribe</a><span class='sub-ket'>Newsletter</span></li>
+									  <li><a href='#'>Sitemap</a><span class='sub-ket'>Sitemap</span></li>
+								  </ul>
+							  </li>
+							  <li>
+								  <label class='toggle cart' for='drop-5'>Your Cart &#8690;<span class='cookie-cart'>0</span></label>
+								  <a class='mobile-hidden' href='/' title='Your Shopping Cart | Template AMP AMPPelg'><amp-img alt='' class='shopping-cart' height='26' layout='fixed' src='http://2.bp.blogspot.com/-ffqkMTGX418/WE57z2aeK3I/AAAAAAAAB3Y/WkFApr-3egUQG7nfamjLbjl6KYsPZessgCK4B/s1600/amppelg-shopping-cart.gif' width='26'/><span class='cookie-cart'>0</span></a>
+								  <input id='drop-5' type='checkbox'/>
+								  <ul>
+									  <li><a href='/' title='Jumlah belanja'>Total:0 </a></li>
+								  </ul>
+							  </li>
+						  </ul>
+					  </div>
+					  <div class='kanan-sekali'>
+						  <ul class='menu show-search'>
+							  <li>
+								  <form action='/' class='frmsearch' method='GET' target='_blank'>
+									  <input name='q' type='hidden'/>
+									  <input id='qfront' name='qfront' placeholder='Search...' type='search'/>
+									  <button class='search-icon' id='submitq' type='submit'><amp-img alt='Template AMP Blogspot' height='27' layout='fixed' src='http://2.bp.blogspot.com/-lWfz2uHk1cc/WE34PCQ2uSI/AAAAAAAAB3I/OGI8AOAd4msJ35xBryJspBUODb34Ih6twCK4B/s1600/searchbtn.gif' title='' width='26'/>
+									  </button>
+								  </form>
+							  </li>
+						  </ul>
+					  </div>
+					  <div class='clear'></div>
+				  </nav>
+			</div>
 			<h1>You are entering a page of onfla.github.io</h1>
 		</div>
 	</div>
