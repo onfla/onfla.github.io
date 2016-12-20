@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /search
+Allow: /
+
+Sitemap: https://onfla.github.io/sitemap.xml
