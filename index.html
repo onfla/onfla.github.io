@@ -79,7 +79,7 @@ body{font-family:'Open Sans',sans-serif;font-smoothing:antialiased;-webkit-font-
 a{text-decoration:none;color:#1788C1;}
 a:hover{text-decoration:none;color:#4587F4;}
 /*************************** START: CUSTOM STYLESHEET NOW ***************************/
-h1{text-transform:uppercase;text-align:left;line-height:1.200;margin-top:15px;}
+h1,h1 a{text-transform:uppercase;text-align:left;line-height:1.200;margin:0px;padding:0px;color:#f7f7f7;text-shadow: 0px 1px 1px #575757;}
 .wrapper{width:100%;margin:0px;padding:0px;font-family:serif;font-size:14px;color:#444;background:#E0E4CC;}
 .inner-wrapper{max-width:84%;height:auto;margin:0px auto;padding:0px 10px;background:transparent;}
 .wrapper.brand{width:100%;background:#54AAC6;margin:0px;padding:10px 0px;}
@@ -105,73 +105,69 @@ span.ket,span.sub-ket{color: #7d7d7d;}
 	</div>
 	<div class='wrapper'>
 		<div class='inner-wrapper'>
-				  <div class='header-label'>
-					  <h1>You are entering a page of onfla.github.io</h1>
-				  </div>
-				  <nav itemscope='itemscope' itemtype='https://schema.org/SiteNavigationElement'>
-					  <div class='kiri-menu'>
-						  <label class='toggle lblmenu' for='drop'> MENU &#9660;</label>
-						  <input id='drop' type='checkbox'/>
-						  <ul class='menu'>
-							  <li class='home'>
-								  <label class='toggle' for='drop-1'>Home +</label>
-								  <a href='#'>Home</a><span class='ket'>AMPPelg</span>
-								  <input id='drop-1' type='checkbox'/>
-								  <ul>
-									  <li><a href='/'>Homepage</a><span class='sub-ket'>Home</span></li>
-									  <li><a href='/'>Order/Pembelian</a><span class='sub-ket'>order@amppelg.com</span></li>
-									  <li><a href='/'>Customer Service</a><span class='sub-ket'>contact@amppelg.com</span></li>
-								  </ul>
-							  </li>
-							  <li>
-								  <label class='toggle' for='drop-2'>Tema Template AMP +</label>
-								  <a href='#'>Tema Template AMP</a><span class='ket'>Browse Tema Template</span>
-								  <input id='drop-2' type='checkbox'/>
-								  <ul>
-									  <li><a href='http://www.amppelg.com/search/label/tutorial-amp' title='Kategori Tema Templates AMP'>Tutorial AMP</a><span class='sub-ket'>Tutorial AMP</span></li>
-								  </ul>
-							  </li>
-							  <li>
-								  <label class='toggle' for='drop-3'>Order +</label>
-								  <a href='#'>Order/Beli</a><span class='ket'>Panduan User</span>
-								  <input id='drop-3' type='checkbox'/>
-								  <ul>
-									  <li><a href='#'>Cara Melakukan Pembelian</a><span class='sub-ket'>Petunjuk Pembelian Template AMP</span></li>
-									  <li><a href='#'>Revisi Template AMP</a><span class='sub-ket'>Ingin Merevisi Template AMP?</span></li>
-									  <li><a href='#'>Cara Order Template AMP</a><span class='sub-ket'>Punya Konsep Desain Sendiri?</span></li>
-									  <li><a href='#'>Contact</a><span class='sub-ket'>Khusus Pelanggan</span></li>
-								  </ul>
-							  </li>
-							  <li><a href='#'>Blog</a><span class='ket'>Tips-Tutorial</span></li>
-							  <li class='mnumobile'>
-								  <label class='toggle' for='drop-4'>Term &amp; Condition +</label>
-								  <a href='#'>Term &amp; Condition</a><span class='ket'>Client Att.</span>
-								  <input id='drop-4' type='checkbox'/>
-								  <ul>
-									  <li><a href='//www.amppelg.com/p/privacy-policy.html' title='Privacy Policy | AMPPelg'>Privacy Policy</a><span class='sub-ket'>User Policy</span></li>
-									  <li><a href='#'>Faq</a><span class='sub-ket'>QA</span></li>
-									  <li><a href='#'>About</a><span class='sub-ket'>What &amp; Who</span></li>
-									  <li><a href='#'>Contact</a><span class='sub-ket'>Order</span></li>
-									  <li><a href='#'>Subscribe</a><span class='sub-ket'>Newsletter</span></li>
-									  <li><a href='#'>Sitemap</a><span class='sub-ket'>Sitemap</span></li>
-								  </ul>
-							  </li>
-						  </ul>
-					  </div>
-					  <div class='kanan-menu'>
-						  <ul class='menu show-search'>
-							  <li>
-								  <form action='/' class='frmsearch' method='GET' target='_blank'>
-									  <input name='q' type='hidden'/>
-									  <input id='qfront' name='qfront' placeholder='Search...' type='search'/>
-									  <button class='search-icon' id='submitq' type='submit'><amp-img alt='Template AMP Blogspot' height='27' layout='fixed' src='http://2.bp.blogspot.com/-lWfz2uHk1cc/WE34PCQ2uSI/AAAAAAAAB3I/OGI8AOAd4msJ35xBryJspBUODb34Ih6twCK4B/s1600/searchbtn.gif' title='' width='26'/>
-									  </button>
-								  </form>
-							  </li>
-						  </ul>
-					  </div>
-					  <div class='clear'></div>
-				  </nav>
+			<nav itemscope='itemscope' itemtype='https://schema.org/SiteNavigationElement'>
+				<div class='kiri-menu'>
+					<label class='toggle lblmenu' for='drop'> MENU &#9660;</label>
+					<input id='drop' type='checkbox'/>
+					<ul class='menu'>
+						<li class='home'>
+							<label class='toggle' for='drop-1'>Home +</label>
+							<a href='#'>Home</a><span class='ket'>AMPPelg</span>
+							<input id='drop-1' type='checkbox'/>
+							<ul>
+								<li><a href='/'>Homepage</a><span class='sub-ket'>Home</span></li>
+								<li><a href='/'>Order/Pembelian</a><span class='sub-ket'>order@amppelg.com</span></li>
+								<li><a href='/'>Customer Service</a><span class='sub-ket'>contact@amppelg.com</span></li>
+							</ul>
+						</li>
+						<li>
+							<label class='toggle' for='drop-2'>Tema Template AMP +</label>
+							<a href='#'>Tema Template AMP</a><span class='ket'>Browse Tema Template</span>
+							<input id='drop-2' type='checkbox'/>
+							<ul>
+								<li><a href='http://www.amppelg.com/search/label/tutorial-amp' title='Kategori Tema Templates AMP'>Tutorial AMP</a><span class='sub-ket'>Tutorial AMP</span></li>
+							</ul>
+						</li>
+						<li>
+							<label class='toggle' for='drop-3'>Order +</label>
+							<a href='#'>Order/Beli</a><span class='ket'>Panduan User</span>
+							<input id='drop-3' type='checkbox'/>
+							<ul>
+								<li><a href='#'>Cara Melakukan Pembelian</a><span class='sub-ket'>Petunjuk Pembelian Template AMP</span></li>
+								<li><a href='#'>Revisi Template AMP</a><span class='sub-ket'>Ingin Merevisi Template AMP?</span></li>
+								<li><a href='#'>Cara Order Template AMP</a><span class='sub-ket'>Punya Konsep Desain Sendiri?</span></li>
+								<li><a href='#'>Contact</a><span class='sub-ket'>Khusus Pelanggan</span></li>
+							</ul>
+						</li>
+						<li><a href='#'>Blog</a><span class='ket'>Tips-Tutorial</span></li>
+						<li class='mnumobile'>
+							<label class='toggle' for='drop-4'>Term &amp; Condition +</label>
+							<a href='#'>Term &amp; Condition</a><span class='ket'>Client Att.</span>
+							<input id='drop-4' type='checkbox'/>
+							<ul>
+								<li><a href='//www.amppelg.com/p/privacy-policy.html' title='Privacy Policy | AMPPelg'>Privacy Policy</a><span class='sub-ket'>User Policy</span></li>
+								<li><a href='#'>Faq</a><span class='sub-ket'>QA</span></li>
+								<li><a href='#'>About</a><span class='sub-ket'>What &amp; Who</span></li>
+								<li><a href='#'>Contact</a><span class='sub-ket'>Order</span></li>
+								<li><a href='#'>Subscribe</a><span class='sub-ket'>Newsletter</span></li>
+								<li><a href='#'>Sitemap</a><span class='sub-ket'>Sitemap</span></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class='kanan-menu'>
+					<ul class='menu show-search'>
+						<li>
+							<form action='/' class='frmsearch' method='GET' target='_blank'>
+								<input name='q' type='hidden'/>
+								<input id='qfront' name='qfront' placeholder='Search...' type='search'/>
+								<button class='search-icon' id='submitq' type='submit'><amp-img alt='Template AMP Blogspot' height='27' layout='fixed' src='http://2.bp.blogspot.com/-lWfz2uHk1cc/WE34PCQ2uSI/AAAAAAAAB3I/OGI8AOAd4msJ35xBryJspBUODb34Ih6twCK4B/s1600/searchbtn.gif' title='' width='26'></amp-img></button>
+							</form>
+						</li>
+					</ul>
+				</div>
+				<div class='clear'></div>
+			</nav>
 		</div>
 	</div>
 </body>
